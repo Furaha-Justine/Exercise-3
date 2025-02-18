@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define NUM_STUDENTS 5
+#define NUM_STUDENTS 10
 
 struct Student {
     char name[50];
@@ -18,7 +18,7 @@ void calculateGrade(struct Student *s) {
 }
 
 int main() {
-    struct Student students[5];
+    struct Student students[10];
 
     for (int i = 0; i < NUM_STUDENTS; i++) {
         printf("Enter details for student %d:\n", i + 1);
