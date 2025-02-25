@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define NUM_STUDENTS 5
+#define NUM_STUDENTS 10
 
 int main() {
     char names[NUM_STUDENTS][50];
